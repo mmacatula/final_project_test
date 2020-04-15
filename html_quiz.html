@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>HTML Quiz</title>
+        <link href="style.css" rel="stylesheet">
+        <link jref="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <script src= "main.js"></script>
+        
+    </head>
+    <body>
+    
+ <h1>How much do you know about HTML?</h1>
+ 
+<form id= "quiz" name="quiz">
+    <p>What does HTML stand for?</p>
+       <input id= "textbox" type= "text" name= "question1">
+       
+    <p>HTML describes the structure of a Web Page</p>
+    <input type = "radio" id = "tf" name = "question2" value = "True"> True<br>
+    <input type = "radio" id = "tf" name = "question2" value = "False"> False<br>
+    
+    <p>What is the correct tag to describe a table header?</p>
+    <input type = "radio" id = "mc" name = "question3" value = "<p>"> p <br>
+    <input type = "radio" id = "mc" name = "question3" value = "<tr>"> tr<br>
+    <input type = "radio" id = "mc" name = "question3" value = "<th>"> th<br>
+    <input type = "radio" id = "mc" name = "question3" value = "<td>"> td<br>
+
+    <p>What property defines the background color for an HTML element?</p>
+    <input type = "radio" id = "mc" name = "question4" value = "color.background"> color.background<br>
+    <input type = "radio" id = "mc" name = "question4" value = "background-color"> background-color<br>
+    <input type = "radio" id = "mc" name = "question4" value = "backcolorground"> backcolorground<br>
+    <input type = "radio" id = "mc" name = "question4" value = "background_color"> background_color<br>
+
+     <p>This is the correct syntax for text coloring in HTML:<br><br>
+     h1 style="color:blue;">This is a heading/h1> </p>
+    <input type = "radio" id = "tf" name = "question5" value = "True"> True<br>
+    <input type = "radio" id = "tf" name = "question5" value = "False"> False<br><br><br><br>
+   
+<input id = "button" type= "button" value = "Complete" onclick = "check();">
+
+<div id = "after_submit">
+   
+   <p id= "message"></p>
+    <p id= "number_correct"></p>
+    
+    
+</div>
+
+
+</body>
+</html>
+        
+  

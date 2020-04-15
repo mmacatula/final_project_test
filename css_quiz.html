@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>CSS Quiz</title>
+        <link href="style.css" rel="stylesheet">
+        <link jref="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <script src= "main.js"></script>
+        
+    </head>
+    <body>
+    
+ <h1>How much do you know about CSS?</h1>
+ 
+<form id= "quiz" name="quiz">
+    <p>What does CSS stand for?</p>
+       <input id= "textbox" type= "text" name= "question1">
+       
+    <p>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</p>
+    <input type = "radio" id = "tf" name = "question2" value = "True"> True<br>
+    <input type = "radio" id = "tf" name = "question2" value = "False"> False<br>
+    
+    <p>Which choice is NOT a correct padding designation?</p>
+    <input type = "radio" id = "mc" name = "question3" value = "padding-top"> padding-top <br>
+    <input type = "radio" id = "mc" name = "question3" value = "padding-right"> padding-right<br>
+    <input type = "radio" id = "mc" name = "question3" value = "padding-bottom"> padding-bottom<br>
+    <input type = "radio" id = "mc" name = "question3" value = "padding-middle"> padding-middle<br>
+
+    <p>Which option is a correct CSS selector?</p>
+    <input type = "radio" id = "mc" name = "question4" value = "Round selectors"> Round selectors<br>
+    <input type = "radio" id = "mc" name = "question4" value = "Pseudo-class selectors"> Pseudo-class selectors<br>
+    <input type = "radio" id = "mc" name = "question4" value = "Complicated selectors"> Complicated selectors<br>
+    <input type = "radio" id = "mc" name = "question4" value = "Select selectors"> Select selectors<br>
+
+     <p>The CSS margin properties are used to create space around elements, outside of any defined borders</p>
+    <input type = "radio" id = "tf" name = "question5" value = "True"> True<br>
+    <input type = "radio" id = "tf" name = "question5" value = "False"> False<br><br><br><br>
+   
+<input id = "button" type= "button" value = "Complete" onclick = "check();">
+
+<div id = "after_submit">
+   
+   <p id= "message"></p>
+    <p id= "number_correct"></p>
+    
+   
+</div>
+
+
+</body>
+</html>
+        
+  
